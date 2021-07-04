@@ -2,15 +2,22 @@
 
 #### Q. What are the fundamental differences between DevOps & Agile?
 DevOps is a practice of bringing development and operations teams together whereas Agile is an iterative approach that focuses on collaboration, customer feedback and small rapid releases. DevOps focuses on constant testing and delivery while the Agile process focuses on constant changes.
+
 #### Q. Explain difference between Kubernetes vs Docker vs Jenkins vs Ansible
+
 While Ansible uses Python while Docker and Kubernetes run on Go Programming. Ansible also easy to use and effective for configuration management, and Docker is easy to understand and isolate. However, Kubernetes requires well-planned efforts when it comes to defining nodes and manual installation.
+
 #### Q. What is meant by Continuous Integration?
 Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. ... The version control system is also supplemented with other checks like automated code quality tests, syntax style review tools, and more.
+
 #### Q. Define Microservice Architecture?
 Microservice architecture – a variant of the service-oriented architecture (SOA) structural style – arranges an application as a collection of loosely-coupled services. In a microservices architecture, services are fine-grained and the protocols are lightweight.
+
 #### Q. How is DevOps different from Agile/SDLC?
 DevOps is a practice of bringing development and operations teams together whereas Agile is an iterative approach that focuses on collaboration, customer feedback and small rapid releases. DevOps focuses on constant testing and delivery while the Agile process focuses on constant changes.
+
 #### Q. What are benefits of CI-CD?
+
 Smaller code changes are simpler (more atomic) and have fewer unintended consequences.
 Fault isolation is simpler and quicker.
 Mean time to resolution (MTTR) is shorter because of the smaller code changes and quicker fault isolation.
@@ -24,25 +31,42 @@ Feature toggles and blue-green deploys enable seamless, targeted introduction of
 You can introduce critical changes during non-critical (regional) hours. This non-critical hour change introduction limits the potential impact of a deployment problem.
 Release cycles are shorter with targeted releases and this blocks fewer features that aren’t ready for release. 
 End-user involvement and feedback during continuous development leads to usability improvements. You can add new requirements based on customer’s needs on a daily basis.
+
 #### Q. What is PaaS?
 Platform as a service (PaaS) or application platform as a service (aPaaS) or platform-based service is a category of cloud computing services that allows customers to provision, instantiate, run, and manage a modular bundle comprising a computing platform and one or more applications, without the complexity of building and maintaining the infrastructure typically associated with developing and launching the application(s); and to allow developers to create, develop, and package such software bundles.
+
 #### Q. How DevOps tools work together?
+Build — Continuous integration tools, build status. Test — Test and results determine performance. Package — Artifact repository, application pre-deployment staging. Release — Change management, release approvals, release automation.
 
 #### Q. What does Containerization mean?
 Containerization is defined as a form of operating system virtualization, through which applications are run in isolated user spaces called containers, all using the same shared operating system (OS).
+
 #### Q. What is the function of CI (Continuous Integration) server?
+
 Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests.
+
 #### Q. What are the differences between continuous integration, continuous delivery, and continuous deployment?
+
 Continuous Delivery requires building, testing, and releasing faster and more frequently. Continuous Integration happens before you build as you are testing code. ... With Continuous Deployment, any updated working version of the app is automatically pushed to production.
+
 #### Q. What do you know about serverless model?
+
 Serverless is a cloud-native development model that allows developers to build and run applications without having to manage servers. ... A cloud provider handles the routine work of provisioning, maintaining, and scaling the server infrastructure. Developers can simply package their code in containers for deployment.
+
 #### Q. What is the difference between Monolithic, SOA and Microservices Architecture?
+
 SOA is a modular means of breaking up monolithic applications into smaller components, while microservices provides a smaller, more fine-grained approach to accomplishing the same objective.
+
 #### Q. What is virtualisation?
+
 Virtualization is software that makes computing environments independent of physical infrastructure, while cloud computing is a service that delivers shared computing resources (software and/or data) on demand via the Internet.
+
 #### Q. What is the difference between a blue/green deployment and a rolling deployment?
 
+Once you swap the environment from blue to green, the traffic is directed to your new green environment. You can delete or save your old blue environment for backup until the green environment is stable. In Rolling Deployment, you have only ONE complete environment.
+
 #### Q. What are some tools used for DevOps? Describe your experience working with any of these tools?
+
 Docker
 In the top order of DevOps tools,Docker is the most popular and most commonly used DevOps tool by the DevOps Engineers. Docker is a Linux-based open-source platform that focuses on containers, meaning you package up the software with its dependencies and ship everything together as a unit—no need to worry about managing dependencies separately. It’s portable and highly secure, you can use any language with it, and it integrates well with a number of other tools, such as Jenkins, Ansible, and Bamboo. Research firm Forrester cited Docker as a leader in the enterprise container platform category for Q4 2018.
 Ansible
@@ -64,6 +88,7 @@ Bamboo
 Bamboo stands at ninth position in the popularity of DevOps Tools. Bamboo is similar to Jenkins but isn’t free. For the cost, you’ll get prebuilt functionalities—which means there are far fewer plugins (because you won’t need them).  Bamboo also has a highly intuitive user interface with features such as auto-completion. All in all, it can save you a lot of time when compared to open-source tools, depending on what you’re trying to accomplish.
 
 #### Q. What Is Canary Deployments?
+
 Canary Deployment
 A canary deployment, or canary release, is a deployment pattern that allows you to roll out new code/features to a subset of users as an initial test.
 
@@ -81,7 +106,9 @@ Where Did the Canary Deployment Concept Come From?
 You might be wondering why a little yellow bird is used to indicate a test release of a new feature. To answer that, we’ll have to go back to the coal mining days of the 1920s. Miners brought caged canaries into the coal mines because if there was a high level of toxic gases (typically carbon monoxide), the canary would die, alerting the miners to evacuate the tunnel immediately.
 
 In a similar vein, when you release a feature to a small subset of users, those users can act as the canary, providing an early warning if something goes wrong so that you can rollback to the previous, stable version of the application.
+
 #### Q. What are the anti-patterns of DevOps?
+
 So you wanna do DevOps? Okay, but before you start, let’s have a look at some of the things you shouldn’t do.
 
 In the good old days, we just called them “bad ideas”, but along came diplomacy and political correctness, out went the “brain storm” and in came the “idea shower” and with it came the “anti-pattern”.
@@ -238,7 +265,9 @@ Chef – Chef has a master-agent architecture. Chef server runs on the master ma
 Puppet – Puppet also has a master-agent architecture. Puppet server runs on the master machine and Puppet clients runs as an agent on each client machine. After that, there is also a certificate signing between the agent and the master. Therefore, it is also not that easy.
 
 Ansible – It has only master running on the server machine, but no agents running on the client machine. It uses ssh connection to login to client systems or the nodes you want to configure. Client machine VM requires no special setup, hence it is faster to setup!
+
 #### Q. What is Puppet?
+
 Saltstack – Here Server is called as salt master and clients are called as salt minions which run as agents in the client machine.
 
 Apart from this “Chef vs puppet vs Ansible vs Saltstack” blog, if you want to get trained from professionals on these technologies, you can opt for a structured training from edureka! Click below to know more.
@@ -267,38 +296,70 @@ Ansible – Ansible uses YAML i.e Yet Another Markup Language (Python). It is qu
 Saltstack – Salstack also uses YAML (Python). It is again easy to learn and administrator oriented. 
 
 Next, let us move forward and compare chef vs puppet vs ansible vs saltstack on the basis of interoperability.
+
 #### Q. Before a client can authenticate with the Puppet Master, its certs need to be signed and accepted. How will you automate this task?
+
 Before Puppet agent nodes can retrieve their configuration catalogs, they require a signed certificate from the local Puppet certificate authority (CA). When using Puppet’s built-in CA instead of an external CA, agents submit a certificate signing request (CSR) to the CA to retrieve a signed certificate after it's available.
 
 By default, these CSRs must be manually signed by an admin user, using either the puppetserver ca command or the Node requests page in the Puppet Enterprise console.
 
 Alternatively, to speed up the process of bringing new agent nodes into the deployment, you can configure the CA to automatically sign certain CSRs.
+
 #### Q. What are containers?
 Containers are a form of operating system virtualization. A single container might be used to run anything from a small microservice or software process to a larger application. Inside a container are all the necessary executables, binary code, libraries, and configuration files.
+
 #### Q. What are the advantages that Containerization provides over virtualization?
 In a nutshell, virtualization eliminates the need for an entire server for one application. Containerization eliminates the need for an entire OS for each application. Portability, agility, fault isolation, ease of management, and security are among the advantages of utilizing containerization technology.
+
 #### Q. What is Nagios?
 Nagios monitors the network for problems caused by overloaded data links or network connections, as well as monitoring routers, switches and more
+
 #### Q. How does Nagios works?
 Nagios runs on a server, usually as a daemon or a service. It periodically runs plugins residing on the same server, they contact hosts or servers on your network or on the internet. ... Nagios uses the results from the plugins to determine the current status of the hosts and services on your network.
+
 #### Q. What are Plugins in Nagios?
+What Is A Plugin? Plugins are standalone extensions to Nagios Core that make it possible to monitor anything and everything with Core. Plugins process command-line arguments, perform a specific check, and then return the results to Nagios Core.
 
 #### Q. What is NRPE (Nagios Remote Plugin Executor) in Nagios?
+NRPE allows you to remotely execute Nagios plugins on other Linux/Unix machines. This allows you to monitor remote machine metrics (disk usage, CPU load, etc.). NRPE can also communicate with some of the Windows agent addons, so you can execute scripts and check metrics on remote Windows machines as well.
+
 #### Q. What do you mean by passive check in Nagios?
+Nagios also supports a way to monitor hosts and services passively instead of actively. The key features of passive checks are as follows: Passive checks are initiated and performed by external applications/processes. Passive check results are submitted to Nagios for processing.
+
 #### Q. When Does Nagios Check for external commands?
+When Does Nagios Check For External Commands? Immediately after event handlers are executed. This is in addtion to the regular cycle of external command checks and is done to provide immediate action if an event handler submits commands to Nagios.
+
 #### Q. What are the core operations of DevOps?
+The core operations of DevOps are application development, code developing, code coverage, unit testing, packaging, deployment with infrastructure, provisioning, configuration, orchestration, and deployment.
+
 #### Q. What is Nginx and how it works?
+How Does Nginx Work? Nginx is built to offer low memory usage and high concurrency. Rather than creating new processes for each web request, Nginx uses an asynchronous, event-driven approach where requests are handled in a single thread. With Nginx, one master process can control multiple worker processes.
+
 #### Q. What is Ngrok?
+ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. The software makes your locally-hosted web server appear to be hosted on a subdomain of ngrok.com, meaning that no public IP or domain name on the local machine is needed.
+
 #### Q. How is container different from a virtual machine?
+Virtual machines and containers differ in several ways, but the primary difference is that containers provide a way to virtualize an OS so that multiple workloads can run on a single OS instance. With VMs, the hardware is being virtualized to run multiple OS instances.
+
 #### Q. Why and When to use CICD Pipeline?
+A CI/CD pipeline automates your software delivery process. The pipeline builds code, runs tests (CI), and safely deploys a new version of the application (CD). Automated pipelines remove manual errors, provide standardized feedback loops to developers, and enable fast product iterations.
+
 #### Q. How to use jfrog artifactory with jenkins?
+
+To install the Jenkins Artifactory Plugin, go to Manage Jenkins > Manage Plugins, click on the Available tab and search for Artifactory. Select the Artifactory plugin and click Download Now and Install After Restart.
 
 <br/>
 
 # Jenkins
 
 #### Q. Explain how you can move or copy Jenkins from one server to another?
+
+Move a job from one installation of Jenkins to another by simply copying the corresponding job directory.
+Make a copy of an existing job by making a clone of a job directory by a different name.
+Rename an existing job by renaming a directory.
+
 #### Q. Explain how can create a backup and copy files in Jenkins?
+
 #### Q. Explain how you can setup Jenkins job?
 #### Q. Mention some of the useful plugins in Jenkins
 
