@@ -360,38 +360,88 @@ Rename an existing job by renaming a directory.
 
 #### Q. Explain how can create a backup and copy files in Jenkins?
 
+This contains all of your build jobs configurations, your slave node configurations, and your build history. To create a back-up of your Jenkins setup, just copy this directory. You can also copy a job directory to clone or replicate a job or rename the directory
+
 #### Q. Explain how you can setup Jenkins job?
+
+https://www.guru99.com/create-builds-jenkins-freestyle-project.html
+
 #### Q. Mention some of the useful plugins in Jenkins
+
+https://www.edureka.co/blog/interview-questions/jenkins-interview-questions/
 
 <br/>
 
 # Docker
 
 #### Q. Why use Docker?
+
+Developers can create containers without Docker, but the platform makes it easier, simpler, and safer to build, deploy and manage containers. Docker is essentially a toolkit that enables developers to build, deploy, run, update, and stop containers using simple commands and work-saving automation through a single API.
+
 #### Q. What is a Docker?
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+
 #### Q. Installing Docker on Linux (CentOS)
+
+To install Docker Engine, you need a maintained version of CentOS 7 or 8. Archived versions aren’t supported or tested.
+
+The centos-extras repository must be enabled. This repository is enabled by default, but if you have disabled it, you need to re-enable it.
+
+The overlay2 storage driver is recommended.
+
 #### Q. Basic Docker Commands
+
+https://afourtech.com/guide-docker-commands-examples/
+
+
 #### Q. Deploying Containers
+
+This tutorial shows you how to package a web application in a Docker container image, and run that container image on a Google Kubernetes Engine (GKE) cluster. Then, you deploy the web application as a load-balanced set of replicas that can scale to the needs of your users.
+
 #### Q. Working with Containers
+
+https://www.docker.com/resources/what-container
+
 #### Q. Load and work with HCL product images
+
+
 #### Q. Customize a container
+
 #### Q. Push personal container to Docker Hub
+
 #### Q. Create a container by Dockerfile
+
 #### Q. Docker composes
+
 #### Q. Docker networking
+
 #### Q. Data collection for support
+
 #### Q. Explain a use case for Docker
+
 #### Q. What is Docker image?
+
 #### Q. What is Dockerfile used for?
+
 #### Q. What is the difference between a Docker image and a container?
+
 #### Q. Do I lose my data when the Docker container exits?
+
 #### Q. What platforms does Docker run on?
+
 #### Q. How to stop and restart the Docker container?
+
 #### Q. What is Docker container? How to create Docker container?
+
 #### Q. Can I use json instead of yaml for my compose file in Docker?
+
 #### Q. What is Docker Swarm?
+
 #### Q. How is Docker different from other container technologies?
+
 #### Q. What is Docker hub?
+
 #### Q. How exactly are containers (Docker in our case) different from hypervisor virtualization (vSphere)? What are the benefits?
 
 <br/>
@@ -399,16 +449,27 @@ Rename an existing job by renaming a directory.
 # Kubernetes
 
 #### Q. Kubernetes architecture
+
 #### Q. Kubernetes installation
+
 #### Q. Pod
+
 #### Q. ReplicaSet
+
 #### Q. Deployment
+
 #### Q. Services
+
 #### Q. Rolling update
+
 #### Q. Environment
+
 #### Q. Persistent volumes
+
 #### Q. Namespace
+
 #### Q. Troubleshooting
+
 #### Q. What is containers Orchestration in Kubernetes?
 
 <br/>
@@ -416,7 +477,12 @@ Rename an existing job by renaming a directory.
 # Helm
 
 #### Q. What is Helm?
+
 #### Q. Helm installation
+
 #### Q. Create Helm project
+
 #### Q. Deploy Helm chart
+
 #### Q. Troubleshooting
+
