@@ -1,8 +1,11 @@
 # CI/CD
 
 #### Q. What are the fundamental differences between DevOps & Agile?
+DevOps is a practice of bringing development and operations teams together whereas Agile is an iterative approach that focuses on collaboration, customer feedback and small rapid releases. DevOps focuses on constant testing and delivery while the Agile process focuses on constant changes.
 #### Q. Explain difference between Kubernetes vs Docker vs Jenkins vs Ansible
+While Ansible uses Python while Docker and Kubernetes run on Go Programming. Ansible also easy to use and effective for configuration management, and Docker is easy to understand and isolate. However, Kubernetes requires well-planned efforts when it comes to defining nodes and manual installation.
 #### Q. What is meant by Continuous Integration?
+Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. ... The version control system is also supplemented with other checks like automated code quality tests, syntax style review tools, and more.
 #### Q. Define Microservice Architecture?
 #### Q. How is DevOps different from Agile/SDLC?
 #### Q. What are benefits of CI-CD?
